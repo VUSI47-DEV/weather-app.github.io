@@ -13,7 +13,7 @@ header {
   animation-duration: 2s;
 }
 #weather-icon {
-  width: min(20rem);
+  width: min(10rem);
 }
 #opening-text {
   text-align: center;
