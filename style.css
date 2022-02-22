@@ -119,4 +119,7 @@ main {
   #city-input {
     width: 20rem;
   }
+   .weather-content {
+    padding: 10rem;
+  }
 }
