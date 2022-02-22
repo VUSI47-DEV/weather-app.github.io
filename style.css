@@ -114,3 +114,9 @@ li {
 main {
   /* margin-top: 0; */
 }
+@media screen and (max-width: 768px) {
+  #cta-btn,
+  #city-input {
+    width: 20rem;
+  }
+}
