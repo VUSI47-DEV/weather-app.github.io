@@ -122,4 +122,7 @@ main {
    #weather-icon {
     width: 5rem;
   }
+  .weather-content {
+    width: 100%;
+  }
 }
