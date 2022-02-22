@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+.logo {
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+#weather-icon {
+  width: min(20rem);
+}
+#opening-text {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+#weather-icon {
+}
+/* .show{
+    display: flex;
+    display: block;
+} */
+.weather-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  display: none;
+}
+
+.weather-content.show {
+  display: flex;
+  opacity: 2;
+  transition: opacity 2;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+
+/* CTA */
+.cta {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 1rem;
+  font-family: poppins;
+  /* width: 70%; */
+}
+/* .animate__animated.fadeInLeft{
+    --animate-duration: 2s;
+} */
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(87, 85, 85);
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+h3 {
+  font-weight: 300;
+  color: rgb(145, 144, 148);
+  width: min(50%);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeInRight;
+  animation-duration: 3s;
+}
+li {
+  font-family: "Montserrat", sans-serif;
+}
+#city-input {
+  width: min(35rem);
+  height: 2rem;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 1px #b8b4b4;
+  outline: none;
+  animation: fadeInDown;
+  animation-duration: 3s;
+}
+#cta-btn {
+  width: min(35.5rem);
+  height: 2.4rem;
+  background-color: rgb(39, 125, 223);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 1px rgb(26, 82, 146);
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  animation: fadeInDown;
+  animation-duration: 3s;
+  transition: background-color 1s;
+}
+#cta-btn:hover {
+  background-color: rgb(79, 161, 255);
+  transition: background-color 1s;
+}
+.opening-text,
+main {
+  /* margin-top: 0; */
+}

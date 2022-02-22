@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Animation Library -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="/images/qw-logo.svg" alt="" srcset="">
+    </header>
+
+    <section id="opening-text">
+        <h1 >WELCOME TO QUICK WEATHER</h1>
+        <h3>WHERE YOU CAN GET YOUR WEATHER STATUS OF ANY CITY WORLD WIDE WITH A CLICK OF A BUTTON</h3>
+    </section>
+
+    <main>
+        <div class="weather-content">
+            <img id="weather-icon" src="" alt="" srcset="">
+            <div class="weather-details">
+                <ul id = 'weather-ul'>
+                    <li id="max"> </li>
+                    <li id="min"> <li>
+                    <li id="description"></li>
+                    <li id="wind-speed"></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="cta">
+            <input id="city-input" type="text" placeholder="Enter A City">
+            <button id="cta-btn">View Weather</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
